@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Gradiente azul claro para branco */
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #004d40 !important; /* Verde escuro */
+    padding: 10px 20px; /* Adicione espaçamento ao redor da barra de navegação */
+}
+
+.navbar-brand img {
+    width: 40px;
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero-section {
+    background: url('/img/banner.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 120px 20px; /* Ajuste para manter espaçamento adequado */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+
+h1 {
+    font-family: 'Roboto'; /* Defina a fonte Roboto para o h1 */
+    font-size: 3rem; /* Aumente o tamanho da fonte conforme necessário */
+    transition: color 0.5s ease;
+    text-align: center;
+    margin-top: 100px; /* Espaçamento superior */
+    padding-bottom: 20px; /* Espaçamento inferior */
+}
+
+h1:hover {
+    color: #00ff00; /* Cor verde para a transição */
+    transform: scaleX(1.1);
+    transition: 2s;
+}
+
+
+ .btn:hover {
+    background-color: #004d40;
+}
+
+#sobre p {
+    font-size: 1.2rem; /* Aumentar tamanho do texto */
+    text-align: justify;
+    color: #333;
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+#equipe .card {
+    border: none;
+    transition: transform 0.2s;
+    margin-bottom: 20px; /* Espaçamento abaixo dos cards */
+}
+
+#equipe .card:hover {
+    transform: scale(1.05);
+}
+
+#servicos .carousel-inner {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin: 20px 0; /* Espaçamento acima e abaixo do carrossel */
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; /* Adicione preenchimento interno ao formulário */
+}
+
+#contato label {
+    font-weight: bold;
+    color: #004d40;
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+#contato input, #contato textarea {
+    padding: 10px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+}
+
+#contato button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adicione espaçamento interno ao botão */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Espaçamento acima do botão */
+}
+
+#contato button:hover {
+    background-color: #004d40;
+}
+
+
+.comentario {
+padding: 100px;
+background-image: url(/img/aero.jpg);
+background-size: cover;
+color: white;
+}
+
+.comentarios{
+
+   
+    backdrop-filter: blur(10px);
+
+}
+
+
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Adicione espaçamento interno ao rodapé */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    width: 100%;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+}
